@@ -4,6 +4,74 @@
   margin: 0;
 }
 
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #f1a601;
+  text-shadow: black -2px -2px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+.header {
+  background-color: gray;
+  padding: 1vw;
+}
+
+.bookmark_icon {
+  position: absolute;
+  right: 10px;
+  top: -20px;
+  width: 60px;
+}
+
+.quiz-card {
+  background-color: beige;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  padding: 10vh;
+  position: relative;
+  justify-content: space-around;
+  height: 40vh;
+  min-height: 200px;
+}
+
+.button_show_answer {
+  background-color: #f1a601;
+  border: white 2px solid;
+  padding: 5px;
+}
+
+.button_show_answer:hover {
+  color: white;
+  background-color: orangered;
+}
+
+.categories_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+
+  left: 30px;
+  bottom: 15px;
+}
+
+.categories_list_item {
+  background-color: gray;
+  color: #f1a601;
+  padding: 5px 10px 5px 10px;
+  border: white 2px solid;
+  border-radius: 30px;
+}
+
 .navbar {
   display: flex;
   position: fixed;
@@ -13,6 +81,7 @@
   height: 10vh;
   width: 100vw;
   justify-content: space-around;
+  padding: 1vh;
 }
 
 .navbar_items {
