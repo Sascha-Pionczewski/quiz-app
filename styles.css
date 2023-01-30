@@ -101,3 +101,7 @@ h2 {
   width: 7vw;
   height: 7vh;
 }
+
+.active_navbar_icon {
+  background-color: white;
+}
