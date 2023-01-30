@@ -83,7 +83,7 @@ h2 {
   padding: 1em;
 }
 
-.navbar_items {
+.navbar li {
   display: flex;
 }
 
