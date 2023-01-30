@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  flex-wrap: wrap;
+  background-color: gray;
+  height: 10vh;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+.navbar_items {
+  display: flex;
+}
+
+.home_svg {
+  width: 7vw;
+  height: 7vh;
+}
+
+.bookmarks_svg {
+  width: 7vw;
+  height: 7vh;
+}
+
+.profile_svg {
+  width: 7vw;
+  height: 7vh;
+}
