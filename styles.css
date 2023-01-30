@@ -22,6 +22,14 @@ h2 {
   padding: 1vw;
 }
 
+.subheader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+  gap: 200px;
+}
+
 .bookmark_icon {
   position: absolute;
   right: 10px;
@@ -104,4 +112,43 @@ h2 {
 
 .active_navbar_icon {
   background-color: white;
+}
+
+.profile_icon {
+  width: 20vw;
+  height: 20vh;
+}
+
+.name {
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.about_me {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+  text-align: left;
+  margin: auto;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px;
+}
+
+.counter div {
+  display: flex;
+}
+
+.dark_mode {
+  display: flex;
+  gap: 30px;
 }
