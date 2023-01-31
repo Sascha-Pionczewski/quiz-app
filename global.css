@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #f1a601;
+  text-shadow: black -2px -2px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  font-size: 30px;
+}
