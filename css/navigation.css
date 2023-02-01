@@ -3,15 +3,15 @@
   position: fixed;
   bottom: 0;
   flex-wrap: wrap;
-  background-color: gray;
+  background-color: var(--secondary-color);
   height: 10vh;
   width: 100vw;
   justify-content: space-around;
-  padding: 1em;
 }
 
 .navbar li {
   display: flex;
+  padding: 10px;
 }
 
 .home_svg {
@@ -30,7 +30,7 @@
 }
 
 .active_navbar_icon {
-  background-color: white;
+  background-color: var(--card-color);
 }
 
 .profile_icon {

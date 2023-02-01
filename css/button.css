@@ -1,5 +1,5 @@
 .button_show_answer {
-  background-color: #f1a601;
+  background-color: var(--primary-color);
   border: white 2px solid;
   padding: 5px;
 }
