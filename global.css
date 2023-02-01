@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #f1a601;
+  --secondary-color: gray;
+  --card-color: beige;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,7 +13,7 @@
 h1 {
   font-size: 60px;
   text-align: center;
-  color: #f1a601;
+  color: var(--primary-color);
   text-shadow: black -2px -2px;
 }
 

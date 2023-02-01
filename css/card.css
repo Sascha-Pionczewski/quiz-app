@@ -8,22 +8,22 @@
 }
 
 .categories_list li {
-  background-color: gray;
-  color: #f1a601;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   padding: 5px 10px;
   border: white 2px solid;
   border-radius: 30px;
 }
 
-.bookmark_icon {
+.quiz-card img {
+  width: 70px;
   position: absolute;
-  right: 10px;
+  right: 30px;
   top: -20px;
-  width: 60px;
 }
 
 .quiz-card {
-  background-color: beige;
+  background-color: var(--card-color);
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
