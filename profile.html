@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="./js/index.js" defer></script>
   </head>
-  <body>
+  <body data-js="profile-body">
     <!-- header -->
     <header class="header">
       <h1>Quiz App</h1>
@@ -16,14 +17,14 @@
     <main>
       <div class="subheader">
         <img
-          src="img/profile-circle-svgrepo-com.svg"
+          src="img/profile-user-svgrepo-com.svg"
           alt="#"
-          class="profile_icon"
+          class="profile-icon"
         />
-        <h2 class="name">Max Doe</h2>
+        <h2 class="name">Sascha Pionczewski</h2>
       </div>
 
-      <article class="about_me">
+      <article class="about-me">
         <h3>About me</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum omnis,
@@ -35,28 +36,33 @@
       <section class="counter">
         <div>
           <img
-            src="/img/question-circle-svgrepo-com.svg"
+            src="/img/red-question-mark-svgrepo-com.svg"
             alt="questions"
             width="70px"
           />
-          <h3>3</h3>
+          <p>3</p>
         </div>
         <div>
           <img
-            src="/img/bookmark-svgrepo-com.svg"
+            src="/img/bookmark-shapes-svgrepo-com.svg"
             alt="bookmark"
             width="70px"
           />
-          <h3>5</h3>
+          <p>5</p>
         </div>
       </section>
 
-      <section>
-        <h3>Settings:</h3>
-        <div class="dark_mode">
-          <h4>Dark Mode</h4>
+      <section class="settings">
+        <p>Settings:</p>
+        <div>
           <label>
-            <input type="checkbox" />
+            <button
+              type="button"
+              data-js="darkMode-button"
+              class="darkMode-button"
+            >
+              Dark Mode ON
+            </button>
           </label>
         </div>
       </section>

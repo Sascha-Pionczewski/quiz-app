@@ -20,9 +20,13 @@ h1 {
 h2 {
   font-size: 30px;
   text-align: center;
-  color: black;
 }
 
 h3 {
   font-size: 30px;
+}
+
+.dark {
+  color: white;
+  background-color: black;
 }

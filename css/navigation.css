@@ -32,8 +32,3 @@
 .active_navbar_icon {
   background-color: var(--card-color);
 }
-
-.profile_icon {
-  width: 20vw;
-  height: 20vh;
-}
