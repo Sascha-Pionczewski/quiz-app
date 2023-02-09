@@ -1,37 +1,50 @@
 .subheader {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 50px;
-  gap: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10%;
 }
 
 .name {
-  font-size: 60px;
-  margin-top: 50px;
+  font-size: 36px;
 }
 
-.about_me {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 400px;
-  text-align: left;
-  margin: auto;
+.about-me {
+  margin: 0 10vw;
 }
 
 .counter {
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin: 20px;
+  margin-top: 20%;
 }
 
 .counter div {
   display: flex;
 }
 
-.dark_mode {
+.counter p {
+  font-size: 24px;
+}
+
+.settings {
   display: flex;
   gap: 30px;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.settings p {
+  font-size: 24px;
+}
+
+.darkMode-button {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.profile-icon {
+  width: 6em;
 }
