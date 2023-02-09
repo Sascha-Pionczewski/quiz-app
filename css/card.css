@@ -19,7 +19,14 @@
   width: 70px;
   position: absolute;
   right: 30px;
-  top: -20px;
+  top: -10px;
+}
+
+.quiz-card svg {
+  width: 50px;
+  position: absolute;
+  right: 10px;
+  top: -25px;
 }
 
 .quiz-card {
@@ -29,9 +36,21 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
-  padding: 10em;
+  padding: 30px;
   position: relative;
-  justify-content: space-around;
-  height: 40em;
-  min-height: 200px;
+  justify-content: space-between;
+  min-height: 20em;
+}
+
+.marked {
+  background-color: var(--primary-color);
+}
+
+.answer {
+  text-align: center;
+  font-size: 2em;
+}
+
+.answer--hidden {
+  visibility: hidden;
 }

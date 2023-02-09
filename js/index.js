@@ -1,11 +1,22 @@
-// Dark Mode Toggle
+const bookmarkSvg = document.querySelector('[data-js="bookmark-svg"]');
+const answerButton = document.querySelector('[data-js="answer-button"]');
+const answer = document.querySelector('[data-js="answer"]');
 
-const profileBody = document.querySelector('[data-js="profile-body"]');
-const bookmarksBody = document.querySelector('[data-js="bookmarks-body"]');
-const indexBody = document.querySelector('[data-js="index-body"]');
-const darkModeButton = document.querySelector('[data-js="darkMode-button"]');
+bookmarkSvg.addEventListener("click", () => {
+  bookmarkSvg.classList.toggle("marked");
+});
 
-darkModeButton.addEventListener("click", () => {
-  const globalBody = document.body;
-  globalBody.classList.toggle("dark");
+let counter = 0;
+
+answerButton.addEventListener("click", () => {
+  answer.classList.toggle("answer--hidden");
+
+  if (counter === 0) {
+    answerButton.textContent = "Hide Answer";
+    counter++;
+    return;
+  } else {
+    answerButton.textContent = "Show Answer";
+  }
+  counter--;
 });
