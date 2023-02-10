@@ -1,0 +1,25 @@
+.form-card {
+  margin: 20vw;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.form input {
+  margin-bottom: 3em;
+}
+
+.input {
+  height: 15em;
+}
+
+#tag {
+  height: 5em;
+}
+
+.main {
+  margin-bottom: 20em;
+}

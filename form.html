@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./js/form.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <h1>Quiz App</h1>
+    </header>
+    <main data-js="main" class="main">
+      <section class="form-card">
+        <form class="form" data-js="form">
+          <fieldset class="form-field">
+            <label for="question">Your question</label>
+            <input
+              class="input"
+              type="text"
+              name="question"
+              id="question"
+              data-js="question"
+            />
+
+            <label for="answer">Your answer</label>
+            <input
+              class="input"
+              type="text"
+              name="answer"
+              id="answer"
+              data-js="answer"
+            />
+
+            <label for="tag">Your tag</label>
+            <input type="text" name="tag" id="tag" data-js="tag" />
+          </fieldset>
+
+          <button type="submit" data-js="button">submit</button>
+        </form>
+      </section>
+    </main>
+    <!-- footer with the navbar -->
+    <footer>
+      <nav>
+        <ul class="navbar">
+          <li>
+            <a href="/index.html">
+              <img
+                src="img/home2-svgrepo-com.svg"
+                alt="home"
+                class="home_svg"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="/bookmarks.html">
+              <img
+                src="img/bookmark-svgrepo-com.svg"
+                alt="bookmark"
+                class="bookmarks_svg"
+              />
+            </a>
+          </li>
+          <li class="active_navbar_icon">
+            <a href="/form.html">
+              <img
+                src="img/plus-circle-svgrepo-com.svg"
+                alt="plus"
+                class="bookmarks_svg"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="/profile.html">
+              <img
+                src="img/profile-circle-svgrepo-com.svg"
+                alt="bookmark"
+                class="bookmarks_svg"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
